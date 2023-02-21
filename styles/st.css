@@ -3,12 +3,12 @@ body {
 	font-family: 'Inter','Mulish', sans-serif;
 	font-size: 16px;
 	color: #202336;
-	/*max-width: 1600px;*/
 }
+
 .header_holiday, .section02{
 	display: grid;
     grid-template-columns: repeat(2, 1fr);
-	max-width: 1600px;
+	/*max-width: 1600px;*/
 }
 .section03, .section06{
 	display: grid;
