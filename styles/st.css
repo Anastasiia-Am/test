@@ -21,10 +21,10 @@ body {
 .section04,.section05{
 	display: grid;
     grid-template-columns: 750px 850px;
-	justify-content: center;
+	justify-items: stretch;
 	justify-items: center;
 	max-width: 1600px;
-	margin-top: 214px;
+	margin-top: 164px;
 	margin-left: 1px;
 }
 .view{
@@ -181,25 +181,25 @@ select{
 	padding-left: 8px;
 }
 .element11{
-	position: absolute;
+	position: relative;
 	left: 731px;
-	top: 783px;
+	top: -42px;
 }
 .element12 img{
 	width: 26px;
 	height: 26px;
-	position: absolute;
+	position: relative;
 	left: 80px;
-	top: 494px;
+	top: -352px;
 }
 .plus13{
-	position: absolute;
+	position: relative;
 	left: 657px;
-	top: 219px;
+	top: -657px;
 }
 /*section02*/
 .section02{
-	margin-top: 283px;
+	margin-top: 207px;
 	margin-left: 140px;
 }
 .section02_right{
@@ -225,20 +225,20 @@ select{
 	margin-top: 40px;
 }
 .plus21{
-	position: absolute;
-	left: 825px;
-	top: 1088px;
+	position: relative;
+	left: 685px;
+	top: -503px;
 	transform: rotate(8deg);
 }
 .element22{
-	position: absolute;
-	left: 1227px;
-	top: 1467px;
+	position: relative;
+	left: 357px;
+	top: -175px;
 	
 }
 /*section03*/
 .section03{
-	margin-top: 290px;
+	margin-top: 265px;
 	margin-left: 239px;
 }
 .section03>h2{
@@ -287,20 +287,20 @@ select{
 	background-position:center;
 }
 .plus31{
-	position: absolute;
-	left: 119px;
-	top: 2233px;
+	position: relative;
+	left: -1262px;
+	top: 196px;
 	transform: rotate(8deg);
 }
 .element32{
-	position: absolute;
-	left: 1166px;
-	top: 1903px;
+	position: relative;
+	left: 931px;
+	top: -508px;
 }
 .element33{
-	position: absolute;
-	left: 739px;
-	top: 2416px;
+	position: relative;
+	left: 218px;
+	top: 5px;
 }
 /*section04*/
 .section04_left{
@@ -324,7 +324,7 @@ select{
 	border:none;
 	border-radius: 8px;
 	padding: 14px 44px;
-	margin-top: 39px;
+	margin-top: 41px;
 }
 .section04_right{
 	align-self: start;
@@ -333,27 +333,27 @@ select{
 	padding-left: 20px;
 }
 .element41{
-	position: absolute;
-	left: 285px;
-	top: 2693px;
+	position: relative;
+	left: -81px;
+	top: -460px;
 }
 .plus42 img{
 	width: 16px;
 	height: 16px;
 	transform: rotate(10deg);
-	position: absolute;
-	left: 1428px;
-	top: 2646px;
+	position: relative;
+	left: 260px;
+	top: -506px;
 }
 .plus43 {
 	transform: rotate(20.4deg);
-	position: absolute;
-	left: 659px;
-	top: 3031px;
+	position: relative;
+	left: 293px;
+	top: -147px;
 }
 /*section05*/
 .section05_left{
-	padding-top: 30px;
+	padding-top: 35px;
 	padding-left: 169px;
 }
 .stars{
@@ -388,7 +388,7 @@ select{
 	align-self: start;
 	justify-self: start;
 	padding-left: 124px;
-	padding-top: 95px;
+	padding-top: 99px;
 }
 .element51 img{
 	width: 42px;
@@ -432,14 +432,14 @@ select{
 	
 }
 .element52{
-	position:absolute;
-	left: 97px;
-	top: 3699px;
+	position:relative;
+	left: -269px;
+	top: -320px;
 }
 /*section06*/
 .section06{
-	margin-top: 266px;
-	margin-left: 241px;
+	margin-top: 244px;
+	margin-left: 240px;
 }
 .section06>h2{
 	grid-column: 1/4;
@@ -487,30 +487,30 @@ article h4{
 		background-position: 0 -10px;
 	}
 	.element61{
-		position: absolute;
-		left:143px;
-		top: 4652px;
+		position: relative;
+		left:-1240px;
+		top: 263px;
 	}
 	.plus62 img{
-		position: absolute;
-		left:645px;
-		top: 4228px;
+		position: relative;
+		left:404px;
+		top:-635px;
 	transform: rotate(8deg);
 	}
 	.element63{
-		position: absolute;
-		left:980px;
-		top: 4891px;
+		position: relative;
+		left:453px;
+		top: 28px;
 	}
 	/*footer*/
 	footer{
 		background-color: #F9F9FB;
 		height: 482px;
-		margin-top: 270px;
-		margin-left: 0px;
-		padding-top: 76px;
+		width: 200%;
+		margin-top: 224px;
+		padding-top: 72px;
 		padding-left: 191px;
-		padding-right: 169px;
+		
 
 	}
 	.ts{
@@ -518,7 +518,6 @@ article h4{
 		grid-template-columns: 473px 247px 263px 245px;
 	justify-items: start;
 	align-items: start;
-	max-width: 1600px;
 	gap: 25px;
 	}
 		.logo img{
