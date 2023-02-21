@@ -515,10 +515,9 @@ article h4{
 	}
 	.ts{
 		display: grid;
-		grid-template-columns: 39% 20% 21% 20%;
+		grid-template-columns: 31% 17% 17% 35%;
 	justify-items: start;
 	align-items: start;
-	gap: 25px;
 	}
 		.logo img{
 		width: 44px;
