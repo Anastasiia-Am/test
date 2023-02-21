@@ -515,7 +515,7 @@ article h4{
 	}
 	.ts{
 		display: grid;
-		grid-template-columns: 473px 247px 263px 245px;
+		grid-template-columns: 39% 20% 21% 20%;
 	justify-items: start;
 	align-items: start;
 	gap: 25px;
